@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rithuli's Magical Garden 💜</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- Welcome Popup -->
+<div class="popup" id="popup">
+    <div class="popup-content">
+        <h2>💜 Welcome! 💜</h2>
+        <p>Hey there! Get ready to celebrate someone amazing. This is your special place to countdown to the best birthday ever! 🎉</p>
+        <button class="popup-btn" onclick="closePopup()">Let's Go! 🎊</button>
+    </div>
+</div>
+
+<header class="header">
+    <div class="header-content">
+        <h1 class="main-title">🌸 Rithuli Thivainya 🌸</h1>
+        <p class="subtitle">My Amazing Bestie 💜</p>
+    </div>
+</header>
+
+<div class="container">
+    
+    <!-- Birthday Countdown Section -->
+    <section class="countdown-section">
+        <h2>🎂 Birthday Countdown</h2>
+        <p>Get ready for the big day!</p>
+        <div class="countdown-box">
+            <div class="countdown-item">
+                <div class="countdown-value" id="days">00</div>
+                <div class="countdown-label">Days</div>
+            </div>
+            <div class="countdown-item">
+                <div class="countdown-value" id="hours">00</div>
+                <div class="countdown-label">Hours</div>
+            </div>
+            <div class="countdown-item">
+                <div class="countdown-value" id="minutes">00</div>
+                <div class="countdown-label">Minutes</div>
+            </div>
+            <div class="countdown-item">
+                <div class="countdown-value" id="seconds">00</div>
+                <div class="countdown-label">Seconds</div>
+            </div>
+        </div>
+    </section>
+
+    <section class="surprise-section">
+        <h2>💌 Get a Surprise Message</h2>
+        <p>Click the button below to see an amazing message about you!</p>
+        <button class="surprise-btn" onclick="showMessage()">Click for Surprise 💌</button>
+        <div class="message-box" id="message"></div>
+    </section>
+
+    <section class="messages-section">
+        <h2>💕 Why You're Amazing</h2>
+        <div class="messages-grid">
+            <div class="message-card">You're the BEST 🌟</div>
+            <div class="message-card">Ultra kind 💚</div>
+            <div class="message-card">Always fun 😄</div>
+            <div class="message-card">Super talented 🎨</div>
+            <div class="message-card">Great listener 👂</div>
+            <div class="message-card">True friend 👯</div>
+        </div>
+    </section>
+
+    <section class="facts-section">
+        <h2>✨ Facts About You</h2>
+        <ul class="facts-list">
+            <li>🎂 Your birthday is October 16 (Coming soon!)</li>
+            <li>💜 Purple is basically your fav color</li>
+            <li>🌸 You're as beautiful as a blooming garden in case nobody have told you!</li>
+            <li>✨ Your a good listener </li>
+            <li>🦋 You inspire people </li>
+            <li>🎉 Every day is better with you</li>
+        </ul>
+    </section>
+
+</div>
+
+<section class="wish-section">
+    <p class="wish-message">This is a little early, but I couldn’t wait to say it… happy birthday to my best friend. I’m really lucky to have you in my life. You’re the one I talk to every single day, the one I share everything with, whether it’s the hard moments that feel heavy or the good ones that make everything worth it.<br><br>
+
+You’ve been there for me in ways that matter more than you probably realize, and I hope you know I’ll always be here for you too. No matter what happens, you’re not alone in anything you go through.<br><br>
+
+I hope this year brings you more happiness, more smiles, and everything you’ve been wishing for. You deserve all the good things in the world. Stay the amazing, kind, and beautiful person you are.<br><br>
+<br>
+From your boy best friend,
+Isuru 💜
+</p>
+</section>
+
+<script src="script.js"></script>
+</body>
+</html>
